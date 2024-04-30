@@ -1,0 +1,16 @@
+.container{
+    width: 30%;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    transition: background-color 0.4s;
+}
+
+.container p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container:hover{
+    background-color: rgb(200, 238, 238);
+}
